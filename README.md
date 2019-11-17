@@ -1,8 +1,16 @@
-# Python CLI  structure
+# rename_papers
 
-## Why?
 
-This repo serves as a good reference point for a simple and basic CLI
-structure. This can either be consumed visually or cloned in which case you
-should change `pycli` to whatever your CLI name will be.
+---
 
+
+## Introduction
+
+*rename_papers* is a simple program to extract the title from a PDF file, manipulate it, and rename the file.  It does this with a GUI (tkinter) so you're able to select various fragments comprising the new file name, and various operations on the filename.  Here's an example:
+
+![rename winow](./assets/imgs/rename_window.png)
+
+## Requirements
+
+- tkinter (provided with Python)
+- pdftotext
