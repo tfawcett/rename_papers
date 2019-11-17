@@ -1,11 +1,6 @@
 from setuptools import setup
 
-setup(
-    name = 'pycli',
-    version = '0.1.0',
-    packages = ['pycli'],
-    entry_points = {
-        'console_scripts': [
-            'pycli = pycli.__main__:main'
-        ]
-    })
+setup(name='rename_papers',
+      version='0.1.0',
+      packages=['rename_papers'],
+      entry_points={'console_scripts': ['rename_papers = rename_papers.__main__:main']})
